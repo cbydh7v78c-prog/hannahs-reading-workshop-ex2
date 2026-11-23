@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hannah's Reading Workshop · Exercise 2 Matching</title>
+<meta name="description" content="Cambridge IGCSE ESL 0511 Reading Exercise 2 Matching 真题精讲：A–D/E 段落原文、答案句彩色高亮、B2–C1 词汇与长难句解析。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232b2721'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%23fff' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ============ 顶栏 ============ -->
+<header class="hdr">
+  <div class="brand">
+    <span class="brand-mark">H</span>
+    <span class="brand-txt">Hannah's <em>Reading</em> Workshop<span class="brand-sub">Exercise 2 · Matching</span></span>
+  </div>
+
+  <div class="hdr-mid">
+    <button class="navbtn" id="prevP" title="上一篇">‹</button>
+    <div class="picker">
+      <select id="pSelect" aria-label="选择篇目"></select>
+    </div>
+    <button class="navbtn" id="nextP" title="下一篇">›</button>
+  </div>
+
+  <div class="hdr-right">
+    <a class="xlink" href="https://cbydh7v78c-prog.github.io/hannahs-reading-workshop/" title="切换到 Exercise 1">Exercise 1 ↗</a>
+    <span class="tip">点击题目 → 对应段落亮起</span>
+    <button class="btn" id="btnToggle" title="切换答案句高亮">隐藏高亮</button>
+    <button class="btn btn-ghost" id="btnReset" title="清空作答">重做</button>
+  </div>
+</header>
+
+<!-- ============ 主体 ============ -->
+<main class="workspace">
+
+  <!-- 左：原文 -->
+  <section class="pane pane-a" aria-label="原文">
+    <div class="a-head">
+      <div class="a-meta">
+        <span class="chip chip-dark" id="metaPaper">—</span>
+        <span class="chip" id="metaTopic">—</span>
+        <span class="chip" id="metaMarks">—</span>
+      </div>
+      <h1 class="a-title" id="aTitle">—</h1>
+      <p class="a-intro" id="aIntro"></p>
+      <div class="a-tools">
+        <span class="legend" id="legend"></span>
+      </div>
+    </div>
+    <div class="a-scroll" id="aScroll">
+      <article class="article" id="article"></article>
+      <div class="a-end">— 文章结束 —</div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true"><span class="grip">⋮⋮</span></div>
+
+  <!-- 右：题目 -->
+  <section class="pane pane-b" aria-label="题目与讲解">
+    <div class="b-head">
+      <div class="tabs" id="tabs" role="tablist">
+        <button class="tab is-on" data-tab="q" role="tab">题目 <b id="cQ">0</b></button>
+        <button class="tab" data-tab="v" role="tab">B2–C1 词汇 <b id="cV">0</b></button>
+        <button class="tab" data-tab="s" role="tab">长难句 <b id="cS">0</b></button>
+      </div>
+      <div class="score">
+        <span id="scoreChip">0 / 10</span>
+        <span class="score-lbl">得分</span>
+      </div>
+    </div>
+    <div class="b-scroll" id="bScroll">
+      <div class="tabbody" id="tabbody"></div>
+    </div>
+  </section>
+
+</main>
+
+<button class="fab" id="fabQ">跳到题目</button>
+
+<!-- ============ 脚本 ============ -->
+<script src="data/p01.js"></script>
+<script src="data/p02.js"></script>
+<script src="data/p03.js"></script>
+<script src="data/p04.js"></script>
+<script src="data/p05.js"></script>
+<script src="data/p06.js"></script>
+<script src="data/p07.js"></script>
+<script src="data/p08.js"></script>
+<script src="data/p09.js"></script>
+<script src="data/p10.js"></script>
+<script src="data/p11.js"></script>
+<script src="data/p12.js"></script>
+<script src="data/p13.js"></script>
+<script src="data/extra.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
