@@ -18,6 +18,20 @@ if (fs.existsSync(EXTRA)) vm.runInThisContext(fs.readFileSync(EXTRA, 'utf8'), { 
 const P = (global.PASSAGES || []).sort((a, b) => a.no - b.no);
 const norm = (s) => String(s).replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"').replace(/\s+/g, ' ').trim().toLowerCase();
 
+/* 与前端一致的分句，用于确认 key 不跨越句子边界 */
+function splitSentences(text) {
+  const parts = [];
+  let last = 0;
+  const re = /[.!?][\u201D\u2019"']?\s+(?=[A-Z0-9\u201C\u2018"'(£])/g;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    parts.push(text.slice(last, m.index + m[0].trim().length));
+    last = m.index + m[0].length;
+  }
+  parts.push(text.slice(last));
+  return parts.map((s) => s.trim()).filter(Boolean);
+}
+
 let errors = [];
 let totQ = 0, totMarks = 0, totV = 0, totS = 0;
 const ids = new Set();
@@ -49,6 +63,9 @@ for (const p of P) {
     if (!q.key) { err(`(${q.no}) key 缺失`); return; }
     const k = norm(q.key);
     if (!byKey[q.ans] || byKey[q.ans].indexOf(k) < 0) err(`(${q.no}) key 不在答案段 ${q.ans} 中：${q.key}`);
+    const sec = p.sections.find((s) => s.key === q.ans);
+    const inOne = splitSentences(sec.text).some((s) => norm(s).indexOf(k) >= 0);
+    if (!inOne) err(`(${q.no}) key 跨越句子边界，前端无法高亮：${q.key}`);
   });
   if ((p.questions || []).length !== 10) err(`题目数 ${p.questions.length} ≠ 10`);
   if (marks !== 10) err(`总分 ${marks} ≠ 10`);

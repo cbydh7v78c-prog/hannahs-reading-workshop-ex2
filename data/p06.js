@@ -91,7 +91,7 @@ window.PASSAGES.push({
     {
       no: 'h', marks: 1, ans: 'D',
       stem: 'likes the fact that the book is funny as well as exciting?',
-      key: 'which are incredibly amusing. But there’s plenty of action too',
+      key: 'which are incredibly amusing',
       para: 'incredibly amusing ↔ funny；plenty of action ↔ exciting',
       why: 'D 段说书中一些超能力 “incredibly amusing”，紧接着补一句“但动作场面也很多”，正好是“既搞笑又刺激”。',
       trap: 'A 段有 “witty and charming”，但那是形容人物 Harry 的性格，不是评价整本书好笑。'

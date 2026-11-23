@@ -35,7 +35,7 @@ window.PASSAGES.push({
     {
       no: 'a', marks: 1, ans: 'C',
       stem: 'regrets not working harder on one part of the course?',
-      key: 'The only thing I didn’t enjoy was media law. In fact, I often avoided going to those classes. Looking back, I now wish I hadn’t',
+      key: 'Looking back, I now wish I hadn’t',
       para: 'often avoided going to those classes ↔ 没好好学；I now wish I hadn’t ↔ regrets；it’s something I need to know ↔ 现在知道该学',
       why: 'C 段说唯一不喜欢的是 media law，常常逃这些课，如今 “wish I hadn’t”，因为当记者必须懂，是对“某一门课没下功夫”的明确后悔。',
       trap: 'B 段开头说 “Maybe I didn’t work as much as some other students”，看似符合，但立刻补上 “but I did what was necessary”，并不后悔，反而替自己辩解。'
