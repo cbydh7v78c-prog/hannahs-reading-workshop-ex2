@@ -114,21 +114,21 @@ window.PASSAGES.push({
     }
   ],
   vocab: [
-    { w: 'rented', pos: 'adj.', lvl: 'B2', def: 'paid for and used for a period of time', cn: '租来的', col: 'a rented house / flat', q: 'There were eight of us in one rented house' },
-    { w: 'resort', pos: 'n.', lvl: 'B2', def: 'a place where many people go for holidays', cn: '度假胜地；滑雪场', col: 'a ski / seaside resort', q: 'We stayed at a ski resort' },
-    { w: 'frosty', pos: 'adj.', lvl: 'B2', def: 'covered with a thin white layer of ice; very cold', cn: '结霜的；严寒的', col: 'a frosty morning / frosty and white', q: 'when everything was frosty and white' },
-    { w: 'tips', pos: 'n.', lvl: 'B2', def: 'useful pieces of advice about how to do something', cn: '建议；小窍门', col: 'give sb tips on sth / handy tips', q: 'gave us tips on the best walking routes' },
-    { w: 'short of', pos: 'phrase', lvl: 'B2', def: 'not having enough of something', cn: '缺少；不足', col: 'be short of time / money / friends', q: 'the kids weren’t short of friends' },
-    { w: 'block', pos: 'n.', lvl: 'B2', def: 'a large building that is divided into separate flats or offices', cn: '（公寓）楼；街区', col: 'a block of flats / in the same block', q: 'staying in the same block' },
-    { w: 'straightforward', pos: 'adj.', lvl: 'B2', def: 'simple and easy to do or understand', cn: '简单明了的；顺利的', col: 'fairly / relatively straightforward', q: 'Getting there was relatively straightforward' },
-    { w: 'variety', pos: 'n.', lvl: 'B2', def: 'a range of different things of the same general type', cn: '多样性；种类', col: 'a huge / wide variety of sth', q: 'there was a huge variety of things to do in the region' },
-    { w: 'make the most of', pos: 'phrase', lvl: 'B2', def: 'to use an opportunity as well as you can', cn: '充分利用', col: 'make the most of your time / the region', q: 'which my parents and I hoped to make the most of' },
-    { w: 'fancy doing', pos: 'phrase', lvl: 'B2', def: 'to want to do something (informal)', cn: '想要做（某事）', col: 'fancy doing sth / fancy a drink', q: 'all the others fancied doing, however, was swimming in the lake' },
-    { w: 'end up doing', pos: 'phrase', lvl: 'B2', def: 'to finally be in a situation you did not plan', cn: '最终变成；结果沦落到', col: 'end up doing sth / end up in trouble', q: 'ended up spending far more time in the house' },
-    { w: 'tension', pos: 'n.', lvl: 'C1', def: 'a feeling of nervousness or unfriendliness between people', cn: '紧张关系；矛盾', col: 'create / cause tension between', q: 'This created quite a bit of tension between us' },
-    { w: 'available', pos: 'adj.', lvl: 'B2', def: 'able to be bought, used or obtained', cn: '可获得的；可用的', col: 'the only ones available / readily available', q: 'the only ones available this year' },
-    { w: 'anniversary', pos: 'n.', lvl: 'B2', def: 'a date on which something special happened in a previous year', cn: '周年纪念日', col: 'a wedding / 25th anniversary', q: 'It’s their 25th wedding anniversary' },
-    { w: 'to my taste', pos: 'phrase', lvl: 'C1', def: 'matching what you personally like', cn: '合我的口味（多用于否定）', col: 'not to my taste / to everyone’s taste', q: 'were to my taste' }
+    { w: 'rented', ipa: '/ˈrentɪd/', pos: 'adj.', lvl: 'B2', def: 'paid for and used for a period of time', cn: '租来的', col: 'a rented house / flat', q: 'There were eight of us in one rented house' },
+    { w: 'resort', ipa: '/rɪˈzɔːt/', pos: 'n.', lvl: 'B2', def: 'a place where many people go for holidays', cn: '度假胜地；滑雪场', col: 'a ski / seaside resort', q: 'We stayed at a ski resort' },
+    { w: 'frosty', ipa: '/ˈfrɒsti/', pos: 'adj.', lvl: 'B2', def: 'covered with a thin white layer of ice; very cold', cn: '结霜的；严寒的', col: 'a frosty morning / frosty and white', q: 'when everything was frosty and white' },
+    { w: 'tips', ipa: '/tɪps/', pos: 'n.', lvl: 'B2', def: 'useful pieces of advice about how to do something', cn: '建议；小窍门', col: 'give sb tips on sth / handy tips', q: 'gave us tips on the best walking routes' },
+    { w: 'short of', ipa: '/ˈʃɔːt əv/', pos: 'phrase', lvl: 'B2', def: 'not having enough of something', cn: '缺少；不足', col: 'be short of time / money / friends', q: 'the kids weren’t short of friends' },
+    { w: 'block', ipa: '/blɒk/', pos: 'n.', lvl: 'B2', def: 'a large building that is divided into separate flats or offices', cn: '（公寓）楼；街区', col: 'a block of flats / in the same block', q: 'staying in the same block' },
+    { w: 'straightforward', ipa: '/ˌstreɪtˈfɔːwəd/', pos: 'adj.', lvl: 'B2', def: 'simple and easy to do or understand', cn: '简单明了的；顺利的', col: 'fairly / relatively straightforward', q: 'Getting there was relatively straightforward' },
+    { w: 'variety', ipa: '/vəˈraɪəti/', pos: 'n.', lvl: 'B2', def: 'a range of different things of the same general type', cn: '多样性；种类', col: 'a huge / wide variety of sth', q: 'there was a huge variety of things to do in the region' },
+    { w: 'make the most of', ipa: '/ˌmeɪk ðə ˈməʊst əv/', pos: 'phrase', lvl: 'B2', def: 'to use an opportunity as well as you can', cn: '充分利用', col: 'make the most of your time / the region', q: 'which my parents and I hoped to make the most of' },
+    { w: 'fancy doing', ipa: '/ˌfænsi ˈduːɪŋ/', pos: 'phrase', lvl: 'B2', def: 'to want to do something (informal)', cn: '想要做（某事）', col: 'fancy doing sth / fancy a drink', q: 'all the others fancied doing, however, was swimming in the lake' },
+    { w: 'end up doing', ipa: '/ˌend ʌp ˈduːɪŋ/', pos: 'phrase', lvl: 'B2', def: 'to finally be in a situation you did not plan', cn: '最终变成；结果沦落到', col: 'end up doing sth / end up in trouble', q: 'ended up spending far more time in the house' },
+    { w: 'tension', ipa: '/ˈtenʃn/', pos: 'n.', lvl: 'C1', def: 'a feeling of nervousness or unfriendliness between people', cn: '紧张关系；矛盾', col: 'create / cause tension between', q: 'This created quite a bit of tension between us' },
+    { w: 'available', ipa: '/əˈveɪləbl/', pos: 'adj.', lvl: 'B2', def: 'able to be bought, used or obtained', cn: '可获得的；可用的', col: 'the only ones available / readily available', q: 'the only ones available this year' },
+    { w: 'anniversary', ipa: '/ˌænɪˈvɜːsəri/', pos: 'n.', lvl: 'B2', def: 'a date on which something special happened in a previous year', cn: '周年纪念日', col: 'a wedding / 25th anniversary', q: 'It’s their 25th wedding anniversary' },
+    { w: 'to my taste', ipa: '/tə maɪ ˈteɪst/', pos: 'phrase', lvl: 'C1', def: 'matching what you personally like', cn: '合我的口味（多用于否定）', col: 'not to my taste / to everyone’s taste', q: 'were to my taste' }
   ],
   syntax: [
     {

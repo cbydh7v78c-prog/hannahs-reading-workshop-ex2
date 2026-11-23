@@ -114,21 +114,21 @@ window.PASSAGES.push({
     }
   ],
   vocab: [
-    { w: 'superhero', pos: 'n.', lvl: 'B2', def: 'a character in a story who has special powers and fights evil', cn: '超级英雄', col: 'a superhero story / film', q: 'the usual rules of superhero stories' },
-    { w: 'challenge', pos: 'v.', lvl: 'B2', def: 'to question whether something is right or to refuse to accept it', cn: '质疑；向……挑战', col: 'challenge sb / challenge an idea', q: 'no one is willing to challenge them' },
-    { w: 'weakness', pos: 'n.', lvl: 'B2', def: 'a fault or a point where someone can be easily harmed', cn: '弱点；软肋', col: 'find / exploit a weakness', q: 'They find the bad guys’ weakness' },
-    { w: 'witty', pos: 'adj.', lvl: 'C1', def: 'able to say clever and amusing things', cn: '机智风趣的', col: 'a witty remark / witty and charming', q: 'He’s witty and charming' },
-    { w: 'aggressive', pos: 'adj.', lvl: 'B2', def: 'behaving in an angry or threatening way', cn: '好斗的；有攻击性的', col: 'an aggressive manner / be aggressive towards sb', q: 'She’s aggressive at the beginning of the book' },
-    { w: 'soften', pos: 'v.', lvl: 'C1', def: 'to become less hard, severe or angry', cn: '变温和；软化', col: 'soften towards sb / soften as the story goes on', q: 'but softens as the story goes on' },
-    { w: 'appealing', pos: 'adj.', lvl: 'B2', def: 'attractive or interesting to someone', cn: '有吸引力的', col: 'appealing to sb / an appealing idea', q: 'this makes the book appealing to all sorts of readers' },
-    { w: 'rushed', pos: 'adj.', lvl: 'B2', def: 'done too quickly, without enough care', cn: '仓促的；赶出来的', col: 'a rushed job / feel rushed', q: 'If a story is rushed' },
-    { w: 'originality', pos: 'n.', lvl: 'C1', def: 'the quality of being new and different from anything else', cn: '原创性；新意', col: 'lack originality / show originality', q: 'it lacks originality' },
-    { w: 'unpredictable', pos: 'adj.', lvl: 'B2', def: 'changing so often that you cannot guess what will happen', cn: '不可预测的；变化莫测的', col: 'an unpredictable plot / highly unpredictable', q: 'a fast-moving and unpredictable plot' },
-    { w: 'old-fashioned', pos: 'adj.', lvl: 'B2', def: 'not modern; belonging to an earlier time', cn: '老派的；过时的', col: 'sound old-fashioned / old-fashioned ideas', q: 'It might sound old-fashioned' },
-    { w: 'live up to', pos: 'phrase', lvl: 'C1', def: 'to be as good as what was hoped or promised', cn: '达到（期望）；不负（期望）', col: 'live up to expectations / live up to the hype', q: 'failed to live up to my expectations' },
-    { w: 'vivid', pos: 'adj.', lvl: 'B2', def: 'producing clear and powerful images in the mind', cn: '生动的；鲜明的', col: 'a vivid description / vivid scenes', q: 'the action scenes are vivid' },
-    { w: 'appropriate', pos: 'adj.', lvl: 'B2', def: 'suitable or right for a particular situation or person', cn: '合适的；适宜的', col: 'appropriate for sb / age-appropriate', q: 'might not be appropriate for younger children' },
-    { w: 'motive', pos: 'n.', lvl: 'C1', def: 'a reason for doing something, especially one that is hidden', cn: '动机', col: 'analyse sb’s motives / a hidden motive', q: 'analyse his motives' }
+    { w: 'superhero', ipa: '/ˈsuːpəhɪərəʊ/', pos: 'n.', lvl: 'B2', def: 'a character in a story who has special powers and fights evil', cn: '超级英雄', col: 'a superhero story / film', q: 'the usual rules of superhero stories' },
+    { w: 'challenge', ipa: '/ˈtʃælɪndʒ/', pos: 'v.', lvl: 'B2', def: 'to question whether something is right or to refuse to accept it', cn: '质疑；向……挑战', col: 'challenge sb / challenge an idea', q: 'no one is willing to challenge them' },
+    { w: 'weakness', ipa: '/ˈwiːknəs/', pos: 'n.', lvl: 'B2', def: 'a fault or a point where someone can be easily harmed', cn: '弱点；软肋', col: 'find / exploit a weakness', q: 'They find the bad guys’ weakness' },
+    { w: 'witty', ipa: '/ˈwɪti/', pos: 'adj.', lvl: 'C1', def: 'able to say clever and amusing things', cn: '机智风趣的', col: 'a witty remark / witty and charming', q: 'He’s witty and charming' },
+    { w: 'aggressive', ipa: '/əˈɡresɪv/', pos: 'adj.', lvl: 'B2', def: 'behaving in an angry or threatening way', cn: '好斗的；有攻击性的', col: 'an aggressive manner / be aggressive towards sb', q: 'She’s aggressive at the beginning of the book' },
+    { w: 'soften', ipa: '/ˈsɒfn/', pos: 'v.', lvl: 'C1', def: 'to become less hard, severe or angry', cn: '变温和；软化', col: 'soften towards sb / soften as the story goes on', q: 'but softens as the story goes on' },
+    { w: 'appealing', ipa: '/əˈpiːlɪŋ/', pos: 'adj.', lvl: 'B2', def: 'attractive or interesting to someone', cn: '有吸引力的', col: 'appealing to sb / an appealing idea', q: 'this makes the book appealing to all sorts of readers' },
+    { w: 'rushed', ipa: '/rʌʃt/', pos: 'adj.', lvl: 'B2', def: 'done too quickly, without enough care', cn: '仓促的；赶出来的', col: 'a rushed job / feel rushed', q: 'If a story is rushed' },
+    { w: 'originality', ipa: '/əˌrɪdʒəˈnæləti/', pos: 'n.', lvl: 'C1', def: 'the quality of being new and different from anything else', cn: '原创性；新意', col: 'lack originality / show originality', q: 'it lacks originality' },
+    { w: 'unpredictable', ipa: '/ˌʌnprɪˈdɪktəbl/', pos: 'adj.', lvl: 'B2', def: 'changing so often that you cannot guess what will happen', cn: '不可预测的；变化莫测的', col: 'an unpredictable plot / highly unpredictable', q: 'a fast-moving and unpredictable plot' },
+    { w: 'old-fashioned', ipa: '/ˌəʊld ˈfæʃnd/', pos: 'adj.', lvl: 'B2', def: 'not modern; belonging to an earlier time', cn: '老派的；过时的', col: 'sound old-fashioned / old-fashioned ideas', q: 'It might sound old-fashioned' },
+    { w: 'live up to', ipa: '/ˌlɪv ˈʌp tə/', pos: 'phrase', lvl: 'C1', def: 'to be as good as what was hoped or promised', cn: '达到（期望）；不负（期望）', col: 'live up to expectations / live up to the hype', q: 'failed to live up to my expectations' },
+    { w: 'vivid', ipa: '/ˈvɪvɪd/', pos: 'adj.', lvl: 'B2', def: 'producing clear and powerful images in the mind', cn: '生动的；鲜明的', col: 'a vivid description / vivid scenes', q: 'the action scenes are vivid' },
+    { w: 'appropriate', ipa: '/əˈprəʊpriət/', pos: 'adj.', lvl: 'B2', def: 'suitable or right for a particular situation or person', cn: '合适的；适宜的', col: 'appropriate for sb / age-appropriate', q: 'might not be appropriate for younger children' },
+    { w: 'motive', ipa: '/ˈməʊtɪv/', pos: 'n.', lvl: 'C1', def: 'a reason for doing something, especially one that is hidden', cn: '动机', col: 'analyse sb’s motives / a hidden motive', q: 'analyse his motives' }
   ],
   syntax: [
     {

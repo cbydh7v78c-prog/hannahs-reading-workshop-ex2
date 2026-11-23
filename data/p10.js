@@ -119,22 +119,22 @@ window.PASSAGES.push({
     }
   ],
   vocab: [
-    { w: 'controlled', pos: 'adj.', lvl: 'B2', def: 'done slowly and carefully, with deliberate movements', cn: '有控制的；缓慢规范的', col: 'controlled movements / controlled breathing', q: 'Pilates involves controlled movements and stretching' },
-    { w: 'admittedly', pos: 'adv.', lvl: 'C1', def: 'used to admit that something is true before adding a disagreement', cn: '诚然；不可否认', col: 'Admittedly, … / admittedly difficult', q: 'Admittedly, there was calming background music' },
-    { w: 'confusion', pos: 'n.', lvl: 'B2', def: 'a state in which people do not understand what is happening', cn: '混乱；困惑', col: 'cause / create confusion', q: 'there was quite a lot of confusion in this particular class' },
-    { w: 'inexperienced', pos: 'adj.', lvl: 'B2', def: 'having little knowledge or practice in an activity', cn: '缺乏经验的；新手', col: 'completely / relatively inexperienced', q: 'are not completely inexperienced' },
-    { w: 'routine', pos: 'n.', lvl: 'B2', def: 'a fixed set of movements performed in a class or performance', cn: '（舞蹈、体操的）成套动作', col: 'learn / remember a routine', q: 'learning a dance routine set to a Bollywood movie soundtrack' },
-    { w: 'at ease', pos: 'phrase', lvl: 'B2', def: 'feeling relaxed and not worried', cn: '自在；放松', col: 'feel at ease / put sb at ease', q: 'we were all made to feel completely at ease' },
-    { w: 'foolish', pos: 'adj.', lvl: 'B2', def: 'feeling stupid or embarrassed about something you do', cn: '傻的；难为情的', col: 'feel foolish / look foolish', q: 'I felt a little foolish dancing at first' },
-    { w: 'exhausted', pos: 'adj.', lvl: 'B2', def: 'extremely tired', cn: '筋疲力尽的', col: 'absolutely / completely exhausted', q: 'I was exhausted but in high spirits' },
-    { w: 'in high spirits', pos: 'phrase', lvl: 'C1', def: 'happy and full of energy', cn: '情绪高涨；兴高采烈', col: 'be in high / low spirits', q: 'but in high spirits' },
-    { w: 'martial art', pos: 'n.', lvl: 'B2', def: 'a sport such as karate or judo in which you fight using your hands and feet', cn: '武术', col: 'practise / learn a martial art', q: 'Capoeira is a Brazilian martial art' },
-    { w: 'puzzling', pos: 'adj.', lvl: 'C1', def: 'difficult to understand or explain', cn: '令人费解的', col: 'slightly puzzling / a puzzling question', q: 'Other beginners found this approach slightly puzzling' },
-    { w: 'pace', pos: 'n.', lvl: 'B2', def: 'the speed at which something happens or is done', cn: '速度；节奏', col: 'a fast / slow pace / at your own pace', q: 'I found the pace of the movements too fast' },
-    { w: 'workout', pos: 'n.', lvl: 'B2', def: 'a period of physical exercise to get fit', cn: '锻炼；训练课', col: 'a good / hard workout', q: 'It’s a good workout' },
-    { w: 'strengthen', pos: 'v.', lvl: 'B2', def: 'to make your body or a muscle stronger', cn: '增强；使强壮', col: 'strengthen muscles / your core', q: 'mainly strengthening your leg and stomach muscles' },
-    { w: 'distracting', pos: 'adj.', lvl: 'C1', def: 'stopping you from concentrating on what you are doing', cn: '让人分心的', col: 'very distracting / distracting noise', q: 'I also found the loud music very distracting' },
-    { w: 'crucial', pos: 'adj.', lvl: 'B2', def: 'extremely important because it affects the result', cn: '至关重要的', col: 'crucial for doing sth / absolutely crucial', q: 'it’s crucial for exercising safely' }
+    { w: 'controlled', ipa: '/kənˈtrəʊld/', pos: 'adj.', lvl: 'B2', def: 'done slowly and carefully, with deliberate movements', cn: '有控制的；缓慢规范的', col: 'controlled movements / controlled breathing', q: 'Pilates involves controlled movements and stretching' },
+    { w: 'admittedly', ipa: '/ədˈmɪtɪdli/', pos: 'adv.', lvl: 'C1', def: 'used to admit that something is true before adding a disagreement', cn: '诚然；不可否认', col: 'Admittedly, … / admittedly difficult', q: 'Admittedly, there was calming background music' },
+    { w: 'confusion', ipa: '/kənˈfjuːʒn/', pos: 'n.', lvl: 'B2', def: 'a state in which people do not understand what is happening', cn: '混乱；困惑', col: 'cause / create confusion', q: 'there was quite a lot of confusion in this particular class' },
+    { w: 'inexperienced', ipa: '/ˌɪnɪkˈspɪəriənst/', pos: 'adj.', lvl: 'B2', def: 'having little knowledge or practice in an activity', cn: '缺乏经验的；新手', col: 'completely / relatively inexperienced', q: 'are not completely inexperienced' },
+    { w: 'routine', ipa: '/ruːˈtiːn/', pos: 'n.', lvl: 'B2', def: 'a fixed set of movements performed in a class or performance', cn: '（舞蹈、体操的）成套动作', col: 'learn / remember a routine', q: 'learning a dance routine set to a Bollywood movie soundtrack' },
+    { w: 'at ease', ipa: '/ət ˈiːz/', pos: 'phrase', lvl: 'B2', def: 'feeling relaxed and not worried', cn: '自在；放松', col: 'feel at ease / put sb at ease', q: 'we were all made to feel completely at ease' },
+    { w: 'foolish', ipa: '/ˈfuːlɪʃ/', pos: 'adj.', lvl: 'B2', def: 'feeling stupid or embarrassed about something you do', cn: '傻的；难为情的', col: 'feel foolish / look foolish', q: 'I felt a little foolish dancing at first' },
+    { w: 'exhausted', ipa: '/ɪɡˈzɔːstɪd/', pos: 'adj.', lvl: 'B2', def: 'extremely tired', cn: '筋疲力尽的', col: 'absolutely / completely exhausted', q: 'I was exhausted but in high spirits' },
+    { w: 'in high spirits', ipa: '/ɪn haɪ ˈspɪrɪts/', pos: 'phrase', lvl: 'C1', def: 'happy and full of energy', cn: '情绪高涨；兴高采烈', col: 'be in high / low spirits', q: 'but in high spirits' },
+    { w: 'martial art', ipa: '/ˌmɑːʃl ˈɑːt/', pos: 'n.', lvl: 'B2', def: 'a sport such as karate or judo in which you fight using your hands and feet', cn: '武术', col: 'practise / learn a martial art', q: 'Capoeira is a Brazilian martial art' },
+    { w: 'puzzling', ipa: '/ˈpʌzlɪŋ/', pos: 'adj.', lvl: 'C1', def: 'difficult to understand or explain', cn: '令人费解的', col: 'slightly puzzling / a puzzling question', q: 'Other beginners found this approach slightly puzzling' },
+    { w: 'pace', ipa: '/peɪs/', pos: 'n.', lvl: 'B2', def: 'the speed at which something happens or is done', cn: '速度；节奏', col: 'a fast / slow pace / at your own pace', q: 'I found the pace of the movements too fast' },
+    { w: 'workout', ipa: '/ˈwɜːkaʊt/', pos: 'n.', lvl: 'B2', def: 'a period of physical exercise to get fit', cn: '锻炼；训练课', col: 'a good / hard workout', q: 'It’s a good workout' },
+    { w: 'strengthen', ipa: '/ˈstreŋθn/', pos: 'v.', lvl: 'B2', def: 'to make your body or a muscle stronger', cn: '增强；使强壮', col: 'strengthen muscles / your core', q: 'mainly strengthening your leg and stomach muscles' },
+    { w: 'distracting', ipa: '/dɪˈstræktɪŋ/', pos: 'adj.', lvl: 'C1', def: 'stopping you from concentrating on what you are doing', cn: '让人分心的', col: 'very distracting / distracting noise', q: 'I also found the loud music very distracting' },
+    { w: 'crucial', ipa: '/ˈkruːʃl/', pos: 'adj.', lvl: 'B2', def: 'extremely important because it affects the result', cn: '至关重要的', col: 'crucial for doing sth / absolutely crucial', q: 'it’s crucial for exercising safely' }
   ],
   syntax: [
     {

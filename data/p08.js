@@ -114,21 +114,21 @@ window.PASSAGES.push({
     }
   ],
   vocab: [
-    { w: 'massive', pos: 'adj.', lvl: 'B2', def: 'very large in size, amount or degree', cn: '巨大的；严重的', col: 'massive damage / a massive increase', q: 'causes massive environmental damage' },
-    { w: 'contribute to', pos: 'phrase', lvl: 'B2', def: 'to be one of the causes of something', cn: '促成；是……的原因之一', col: 'contribute to climate change / contribute to a problem', q: 'contributes to climate change' },
-    { w: 'throw away', pos: 'phrase', lvl: 'B2', def: 'to get rid of something you no longer want', cn: '扔掉；丢弃', col: 'throw away food / be thrown away', q: 'about 30% of all food gets thrown away' },
-    { w: 'gather', pos: 'v.', lvl: 'B2', def: 'to collect information or things from different places', cn: '收集；采集', col: 'gather data / gather information', q: 'gather data for the app' },
-    { w: 'enthusiastic', pos: 'adj.', lvl: 'B2', def: 'showing a lot of interest and excitement', cn: '热情的；热衷的', col: 'be enthusiastic about / at first', q: 'I can’t say I was very enthusiastic at first' },
-    { w: 'concentrate', pos: 'v.', lvl: 'B2', def: 'to give all your attention to something', cn: '专心；集中注意力', col: 'concentrate on sth / concentrate hard', q: 'I didn’t really concentrate' },
-    { w: 'extended', pos: 'adj.', lvl: 'C1', def: 'lasting for a long period of time', cn: '长期的；延长的', col: 'an extended period / extended use', q: 'information from an extended period is required' },
-    { w: 'valuable', pos: 'adj.', lvl: 'B2', def: 'very useful or important', cn: '有价值的；宝贵的', col: 'valuable data / valuable experience', q: 'all that valuable data' },
-    { w: 'concern', pos: 'n.', lvl: 'B2', def: 'a feeling of worry about something important', cn: '担忧；令人担心的事', col: 'a major concern / cause for concern', q: 'which is a major concern' },
-    { w: 'volunteer', pos: 'n.', lvl: 'B2', def: 'someone who does a job willingly without being paid', cn: '志愿者', col: 'rely on volunteers / a team of volunteers', q: 'they depend on volunteers to collect data' },
-    { w: 'pointless', pos: 'adj.', lvl: 'B2', def: 'having no purpose or useful result', cn: '无意义的；没用的', col: 'seem pointless / a pointless exercise', q: 'so it seems pointless' },
-    { w: 'get on sb’s nerves', pos: 'phrase', lvl: 'C1', def: 'to annoy someone, especially by repeating something', cn: '惹某人心烦', col: 'really get on my nerves', q: 'their attitude gets on my nerves' },
-    { w: 'light pollution', pos: 'n.', lvl: 'B2', def: 'too much artificial light in an area, harmful to the night sky', cn: '光污染', col: 'measure / reduce light pollution', q: 'measure light pollution around the world' },
-    { w: 'construct', pos: 'v.', lvl: 'C1', def: 'to build or make something by putting parts together', cn: '建造；制作', col: 'construct a model / construct sth from', q: 'we constructed a ‘viewing tube’' },
-    { w: 'straightforward', pos: 'adj.', lvl: 'B2', def: 'simple and easy to do or understand', cn: '简单的；直截了当的', col: 'very straightforward / fairly straightforward', q: 'it’s all been very straightforward' }
+    { w: 'massive', ipa: '/ˈmæsɪv/', pos: 'adj.', lvl: 'B2', def: 'very large in size, amount or degree', cn: '巨大的；严重的', col: 'massive damage / a massive increase', q: 'causes massive environmental damage' },
+    { w: 'contribute to', ipa: '/kənˈtrɪbjuːt tə/', pos: 'phrase', lvl: 'B2', def: 'to be one of the causes of something', cn: '促成；是……的原因之一', col: 'contribute to climate change / contribute to a problem', q: 'contributes to climate change' },
+    { w: 'throw away', ipa: '/ˌθrəʊ əˈweɪ/', pos: 'phrase', lvl: 'B2', def: 'to get rid of something you no longer want', cn: '扔掉；丢弃', col: 'throw away food / be thrown away', q: 'about 30% of all food gets thrown away' },
+    { w: 'gather', ipa: '/ˈɡæðə/', pos: 'v.', lvl: 'B2', def: 'to collect information or things from different places', cn: '收集；采集', col: 'gather data / gather information', q: 'gather data for the app' },
+    { w: 'enthusiastic', ipa: '/ɪnˌθjuːziˈæstɪk/', pos: 'adj.', lvl: 'B2', def: 'showing a lot of interest and excitement', cn: '热情的；热衷的', col: 'be enthusiastic about / at first', q: 'I can’t say I was very enthusiastic at first' },
+    { w: 'concentrate', ipa: '/ˈkɒnsntreɪt/', pos: 'v.', lvl: 'B2', def: 'to give all your attention to something', cn: '专心；集中注意力', col: 'concentrate on sth / concentrate hard', q: 'I didn’t really concentrate' },
+    { w: 'extended', ipa: '/ɪkˈstendɪd/', pos: 'adj.', lvl: 'C1', def: 'lasting for a long period of time', cn: '长期的；延长的', col: 'an extended period / extended use', q: 'information from an extended period is required' },
+    { w: 'valuable', ipa: '/ˈvæljuəbl/', pos: 'adj.', lvl: 'B2', def: 'very useful or important', cn: '有价值的；宝贵的', col: 'valuable data / valuable experience', q: 'all that valuable data' },
+    { w: 'concern', ipa: '/kənˈsɜːn/', pos: 'n.', lvl: 'B2', def: 'a feeling of worry about something important', cn: '担忧；令人担心的事', col: 'a major concern / cause for concern', q: 'which is a major concern' },
+    { w: 'volunteer', ipa: '/ˌvɒlənˈtɪə/', pos: 'n.', lvl: 'B2', def: 'someone who does a job willingly without being paid', cn: '志愿者', col: 'rely on volunteers / a team of volunteers', q: 'they depend on volunteers to collect data' },
+    { w: 'pointless', ipa: '/ˈpɔɪntləs/', pos: 'adj.', lvl: 'B2', def: 'having no purpose or useful result', cn: '无意义的；没用的', col: 'seem pointless / a pointless exercise', q: 'so it seems pointless' },
+    { w: 'get on sb’s nerves', ipa: '/ˌɡet ɒn ˈsʌmbədiz ˈnɜːvz/', pos: 'phrase', lvl: 'C1', def: 'to annoy someone, especially by repeating something', cn: '惹某人心烦', col: 'really get on my nerves', q: 'their attitude gets on my nerves' },
+    { w: 'light pollution', ipa: '/ˈlaɪt pəˌluːʃn/', pos: 'n.', lvl: 'B2', def: 'too much artificial light in an area, harmful to the night sky', cn: '光污染', col: 'measure / reduce light pollution', q: 'measure light pollution around the world' },
+    { w: 'construct', ipa: '/kənˈstrʌkt/', pos: 'v.', lvl: 'C1', def: 'to build or make something by putting parts together', cn: '建造；制作', col: 'construct a model / construct sth from', q: 'we constructed a ‘viewing tube’' },
+    { w: 'straightforward', ipa: '/ˌstreɪtˈfɔːwəd/', pos: 'adj.', lvl: 'B2', def: 'simple and easy to do or understand', cn: '简单的；直截了当的', col: 'very straightforward / fairly straightforward', q: 'it’s all been very straightforward' }
   ],
   syntax: [
     {

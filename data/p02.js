@@ -114,22 +114,22 @@ window.PASSAGES.push({
     }
   ],
   vocab: [
-    { w: 'aim', pos: 'n.', lvl: 'B2', def: 'something you hope to achieve', cn: '目标；志向', col: 'have the aim of doing sth / achieve your aim', q: 'I’ve had the aim of becoming a music journalist' },
-    { w: 'genre', pos: 'n.', lvl: 'C1', def: 'a particular type or style of music, film or writing', cn: '（艺术作品的）类型，体裁', col: 'a genre of music / literary genres', q: 'the history of a whole genre of music' },
-    { w: 'dull', pos: 'adj.', lvl: 'B2', def: 'not interesting or exciting', cn: '乏味的；无聊的', col: 'a bit dull / dull and boring', q: 'a bit dull, to be honest' },
-    { w: 'profit', pos: 'n.', lvl: 'B2', def: 'money you gain after costs are paid', cn: '利润；收益', col: 'make a profit / a small profit', q: 'they can actually make a small profit each month' },
-    { w: 'hits', pos: 'n.', lvl: 'B2', def: 'the number of times a website is visited', cn: '（网页）点击量，访问量', col: 'get a million hits / hit rates', q: 'about a million hits per blog post' },
-    { w: 'impressed', pos: 'adj.', lvl: 'B2', def: 'feeling admiration for something good', cn: '印象深刻的；佩服的', col: 'be impressed with / by sth', q: 'I’m actually quite impressed with some of it' },
-    { w: 'entry', pos: 'n.', lvl: 'B2', def: 'a single item written in a blog, diary or list', cn: '（博客、日记的）一则，一条', col: 'a blog / diary entry', q: 'the entries which aren’t so good' },
-    { w: 'critically', pos: 'adv.', lvl: 'C1', def: 'in a way that judges the good and bad qualities of something', cn: '批判性地；有分析地', col: 'write / think critically about', q: 'how to write critically about someone else’s work' },
-    { w: 'coincidence', pos: 'n.', lvl: 'B2', def: 'two things happening at the same time by chance', cn: '巧合', col: 'a pure coincidence / not a coincidence', q: 'I really don’t think that can be a coincidence' },
-    { w: 'convince', pos: 'v.', lvl: 'B2', def: 'to make someone agree or decide to do something', cn: '说服；劝服', col: 'convince sb to do sth', q: 'if they hadn’t convinced me to continue' },
-    { w: 'negative', pos: 'adj.', lvl: 'B2', def: 'bad, unhelpful or critical', cn: '负面的；消极的', col: 'negative comments / feedback', q: 'after I got a few negative comments about my reviews' },
-    { w: 'disappointing', pos: 'adj.', lvl: 'B2', def: 'not as good as you hoped', cn: '令人失望的', col: 'a disappointing start / result', q: 'After what I can only describe as a disappointing start' },
-    { w: 'popularity', pos: 'n.', lvl: 'B2', def: 'the state of being liked by many people', cn: '受欢迎；人气', col: 'gain / grow in popularity', q: 'my football blog’s gaining popularity these days' },
-    { w: 'far off', pos: 'phrase', lvl: 'C1', def: 'a long way away from a goal; not close', cn: '离目标还远', col: 'not far off / a long way off', q: 'I’m not that far off' },
-    { w: 'give up', pos: 'phrase', lvl: 'B2', def: 'to stop trying to do something', cn: '放弃', col: 'give up doing sth / never give up', q: 'who just gives up when something like that happens' },
-    { w: 'have a go', pos: 'phrase', lvl: 'B2', def: 'to try to do something (informal)', cn: '试一试', col: 'have a go at (doing) sth', q: 'I only decided to have a go at blogging' }
+    { w: 'aim', ipa: '/eɪm/', pos: 'n.', lvl: 'B2', def: 'something you hope to achieve', cn: '目标；志向', col: 'have the aim of doing sth / achieve your aim', q: 'I’ve had the aim of becoming a music journalist' },
+    { w: 'genre', ipa: '/ˈʒɒnrə/', pos: 'n.', lvl: 'C1', def: 'a particular type or style of music, film or writing', cn: '（艺术作品的）类型，体裁', col: 'a genre of music / literary genres', q: 'the history of a whole genre of music' },
+    { w: 'dull', ipa: '/dʌl/', pos: 'adj.', lvl: 'B2', def: 'not interesting or exciting', cn: '乏味的；无聊的', col: 'a bit dull / dull and boring', q: 'a bit dull, to be honest' },
+    { w: 'profit', ipa: '/ˈprɒfɪt/', pos: 'n.', lvl: 'B2', def: 'money you gain after costs are paid', cn: '利润；收益', col: 'make a profit / a small profit', q: 'they can actually make a small profit each month' },
+    { w: 'hits', ipa: '/hɪts/', pos: 'n.', lvl: 'B2', def: 'the number of times a website is visited', cn: '（网页）点击量，访问量', col: 'get a million hits / hit rates', q: 'about a million hits per blog post' },
+    { w: 'impressed', ipa: '/ɪmˈprest/', pos: 'adj.', lvl: 'B2', def: 'feeling admiration for something good', cn: '印象深刻的；佩服的', col: 'be impressed with / by sth', q: 'I’m actually quite impressed with some of it' },
+    { w: 'entry', ipa: '/ˈentri/', pos: 'n.', lvl: 'B2', def: 'a single item written in a blog, diary or list', cn: '（博客、日记的）一则，一条', col: 'a blog / diary entry', q: 'the entries which aren’t so good' },
+    { w: 'critically', ipa: '/ˈkrɪtɪkli/', pos: 'adv.', lvl: 'C1', def: 'in a way that judges the good and bad qualities of something', cn: '批判性地；有分析地', col: 'write / think critically about', q: 'how to write critically about someone else’s work' },
+    { w: 'coincidence', ipa: '/kəʊˈɪnsɪdəns/', pos: 'n.', lvl: 'B2', def: 'two things happening at the same time by chance', cn: '巧合', col: 'a pure coincidence / not a coincidence', q: 'I really don’t think that can be a coincidence' },
+    { w: 'convince', ipa: '/kənˈvɪns/', pos: 'v.', lvl: 'B2', def: 'to make someone agree or decide to do something', cn: '说服；劝服', col: 'convince sb to do sth', q: 'if they hadn’t convinced me to continue' },
+    { w: 'negative', ipa: '/ˈneɡətɪv/', pos: 'adj.', lvl: 'B2', def: 'bad, unhelpful or critical', cn: '负面的；消极的', col: 'negative comments / feedback', q: 'after I got a few negative comments about my reviews' },
+    { w: 'disappointing', ipa: '/ˌdɪsəˈpɔɪntɪŋ/', pos: 'adj.', lvl: 'B2', def: 'not as good as you hoped', cn: '令人失望的', col: 'a disappointing start / result', q: 'After what I can only describe as a disappointing start' },
+    { w: 'popularity', ipa: '/ˌpɒpjuˈlærəti/', pos: 'n.', lvl: 'B2', def: 'the state of being liked by many people', cn: '受欢迎；人气', col: 'gain / grow in popularity', q: 'my football blog’s gaining popularity these days' },
+    { w: 'far off', ipa: '/ˌfɑːr ˈɒf/', pos: 'phrase', lvl: 'C1', def: 'a long way away from a goal; not close', cn: '离目标还远', col: 'not far off / a long way off', q: 'I’m not that far off' },
+    { w: 'give up', ipa: '/ˌɡɪv ˈʌp/', pos: 'phrase', lvl: 'B2', def: 'to stop trying to do something', cn: '放弃', col: 'give up doing sth / never give up', q: 'who just gives up when something like that happens' },
+    { w: 'have a go', ipa: '/ˌhæv ə ˈɡəʊ/', pos: 'phrase', lvl: 'B2', def: 'to try to do something (informal)', cn: '试一试', col: 'have a go at (doing) sth', q: 'I only decided to have a go at blogging' }
   ],
   syntax: [
     {

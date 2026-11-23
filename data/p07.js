@@ -114,21 +114,21 @@ window.PASSAGES.push({
     }
   ],
   vocab: [
-    { w: 'consist of', pos: 'phrase', lvl: 'B2', def: 'to be made up of particular things or people', cn: '由……组成', col: 'consist of sth / be composed of', q: 'a dream consists of a series of routine past events' },
-    { w: 'routine', pos: 'adj.', lvl: 'B2', def: 'happening as part of a regular procedure rather than for a special reason', cn: '例行的；日常的', col: 'routine work / a routine check', q: 'a series of routine past events' },
-    { w: 'recall', pos: 'v.', lvl: 'C1', def: 'to bring something back into your mind', cn: '回忆起；想起', col: 'recall an event / recall doing sth', q: 'ensuring that you recall these events in the future' },
-    { w: 'inner', pos: 'adj.', lvl: 'B2', def: 'inside your mind or body, not shown to others', cn: '内心的；内在的', col: 'inner feelings / inner thoughts', q: 'connected to inner feelings' },
-    { w: 'be aware of', pos: 'phrase', lvl: 'B2', def: 'to know that something exists or is happening', cn: '意识到；察觉到', col: 'be aware of sth / be aware that …', q: 'the person may not even be aware of' },
-    { w: 'divide', pos: 'v.', lvl: 'C1', def: 'to make people disagree and form opposing groups', cn: '使分裂；使产生分歧', col: 'divide scientists / divide opinion', q: 'tends to divide scientists' },
-    { w: 'propose', pos: 'v.', lvl: 'C1', def: 'to suggest an idea or plan for people to consider', cn: '提出（理论、建议）', col: 'propose a theory / propose that …', q: 'All sorts of theories have been proposed' },
-    { w: 'accurately', pos: 'adv.', lvl: 'B2', def: 'in a way that is correct and exact', cn: '准确地', col: 'record / describe sth accurately', q: 'no way of recording dreams accurately' },
-    { w: 'deliberately', pos: 'adv.', lvl: 'B2', def: 'on purpose, not by accident', cn: '故意地；有意地', col: 'deliberately do sth / deliberately vague', q: 'our brains deliberately introduce something weird' },
-    { w: 'weird', pos: 'adj.', lvl: 'B2', def: 'very strange and difficult to explain', cn: '奇怪的；怪异的', col: 'a weird dream / feel weird', q: 'something weird into our dreams' },
-    { w: 'cope with', pos: 'phrase', lvl: 'B2', def: 'to deal successfully with a difficult situation', cn: '应对；处理', col: 'cope with stress / cope with change', q: 'we are able to cope better' },
-    { w: 'artificial intelligence', pos: 'n.', lvl: 'B2', def: 'computer systems that can perform tasks requiring human intelligence', cn: '人工智能', col: 'research into artificial intelligence', q: 'looking into artificial intelligence' },
-    { w: 'encounter', pos: 'v.', lvl: 'C1', def: 'to experience or meet something, especially unexpectedly', cn: '遇到；遭遇', col: 'encounter problems / encounter resistance', q: 'everything it encounters in the future' },
-    { w: 'occur to sb', pos: 'phrase', lvl: 'C1', def: 'if an idea occurs to you, you suddenly think of it', cn: '（想法）突然出现在某人脑中', col: 'it occurred to me that … / the idea occurred to him', q: 'It occurred to Hoel that the human brain works in a very similar way' },
-    { w: 'stand out', pos: 'phrase', lvl: 'B2', def: 'to be much more noticeable or better than others', cn: '突出；显得出众', col: 'stand out from / stand out as', q: 'what makes Hoel’s theory stand out' }
+    { w: 'consist of', ipa: '/kənˈsɪst əv/', pos: 'phrase', lvl: 'B2', def: 'to be made up of particular things or people', cn: '由……组成', col: 'consist of sth / be composed of', q: 'a dream consists of a series of routine past events' },
+    { w: 'routine', ipa: '/ruːˈtiːn/', pos: 'adj.', lvl: 'B2', def: 'happening as part of a regular procedure rather than for a special reason', cn: '例行的；日常的', col: 'routine work / a routine check', q: 'a series of routine past events' },
+    { w: 'recall', ipa: '/rɪˈkɔːl/', pos: 'v.', lvl: 'C1', def: 'to bring something back into your mind', cn: '回忆起；想起', col: 'recall an event / recall doing sth', q: 'ensuring that you recall these events in the future' },
+    { w: 'inner', ipa: '/ˈɪnə/', pos: 'adj.', lvl: 'B2', def: 'inside your mind or body, not shown to others', cn: '内心的；内在的', col: 'inner feelings / inner thoughts', q: 'connected to inner feelings' },
+    { w: 'be aware of', ipa: '/bi əˈweər əv/', pos: 'phrase', lvl: 'B2', def: 'to know that something exists or is happening', cn: '意识到；察觉到', col: 'be aware of sth / be aware that …', q: 'the person may not even be aware of' },
+    { w: 'divide', ipa: '/dɪˈvaɪd/', pos: 'v.', lvl: 'C1', def: 'to make people disagree and form opposing groups', cn: '使分裂；使产生分歧', col: 'divide scientists / divide opinion', q: 'tends to divide scientists' },
+    { w: 'propose', ipa: '/prəˈpəʊz/', pos: 'v.', lvl: 'C1', def: 'to suggest an idea or plan for people to consider', cn: '提出（理论、建议）', col: 'propose a theory / propose that …', q: 'All sorts of theories have been proposed' },
+    { w: 'accurately', ipa: '/ˈækjərətli/', pos: 'adv.', lvl: 'B2', def: 'in a way that is correct and exact', cn: '准确地', col: 'record / describe sth accurately', q: 'no way of recording dreams accurately' },
+    { w: 'deliberately', ipa: '/dɪˈlɪbərətli/', pos: 'adv.', lvl: 'B2', def: 'on purpose, not by accident', cn: '故意地；有意地', col: 'deliberately do sth / deliberately vague', q: 'our brains deliberately introduce something weird' },
+    { w: 'weird', ipa: '/wɪəd/', pos: 'adj.', lvl: 'B2', def: 'very strange and difficult to explain', cn: '奇怪的；怪异的', col: 'a weird dream / feel weird', q: 'something weird into our dreams' },
+    { w: 'cope with', ipa: '/ˈkəʊp wɪð/', pos: 'phrase', lvl: 'B2', def: 'to deal successfully with a difficult situation', cn: '应对；处理', col: 'cope with stress / cope with change', q: 'we are able to cope better' },
+    { w: 'artificial intelligence', ipa: '/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns/', pos: 'n.', lvl: 'B2', def: 'computer systems that can perform tasks requiring human intelligence', cn: '人工智能', col: 'research into artificial intelligence', q: 'looking into artificial intelligence' },
+    { w: 'encounter', ipa: '/ɪnˈkaʊntə/', pos: 'v.', lvl: 'C1', def: 'to experience or meet something, especially unexpectedly', cn: '遇到；遭遇', col: 'encounter problems / encounter resistance', q: 'everything it encounters in the future' },
+    { w: 'occur to sb', ipa: '/əˈkɜː tə ˈsʌmbədi/', pos: 'phrase', lvl: 'C1', def: 'if an idea occurs to you, you suddenly think of it', cn: '（想法）突然出现在某人脑中', col: 'it occurred to me that … / the idea occurred to him', q: 'It occurred to Hoel that the human brain works in a very similar way' },
+    { w: 'stand out', ipa: '/ˌstænd ˈaʊt/', pos: 'phrase', lvl: 'B2', def: 'to be much more noticeable or better than others', cn: '突出；显得出众', col: 'stand out from / stand out as', q: 'what makes Hoel’s theory stand out' }
   ],
   syntax: [
     {

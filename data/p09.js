@@ -119,21 +119,21 @@ window.PASSAGES.push({
     }
   ],
   vocab: [
-    { w: 'evidence', pos: 'n.', lvl: 'B2', def: 'facts or objects that show something is or was true', cn: '证据；遗迹', col: 'real evidence of / evidence that …', q: 'real evidence of dinosaurs' },
-    { w: 'footprint', pos: 'n.', lvl: 'B2', def: 'a mark left on a surface by a foot', cn: '脚印', col: 'leave footprints / dinosaur footprints', q: 'over 300 dinosaur footprints' },
-    { w: 'steep', pos: 'adj.', lvl: 'B2', def: 'rising or falling sharply', cn: '陡峭的', col: 'a steep climb / a steep hill', q: 'the route includes a steep climb' },
-    { w: 'alternative', pos: 'n.', lvl: 'B2', def: 'something you can choose instead of another thing', cn: '替代方案；选择', col: 'a good alternative / an alternative to sth', q: 'might be a good alternative for some' },
-    { w: 'rely on', pos: 'phrase', lvl: 'B2', def: 'to need someone or something in order to work or survive', cn: '依靠；依赖', col: 'rely on sb for sth / rely heavily on', q: 'the museum relies on lots of volunteers' },
-    { w: 'assist', pos: 'v.', lvl: 'C1', def: 'to help someone do something', cn: '协助；帮忙', col: 'assist with sth / assist sb in doing', q: 'who assist with everything' },
-    { w: 'abstract', pos: 'adj.', lvl: 'C1', def: 'not representing things as they look in real life', cn: '抽象的', col: 'abstract art / abstract sculptures', q: 'over 500 abstract sculptures' },
-    { w: 'conservation', pos: 'n.', lvl: 'C1', def: 'the protection of the natural environment', cn: '保护；保育', col: 'conservation of the environment / wildlife conservation', q: 'the conservation of the underwater environment' },
-    { w: 'afford', pos: 'v.', lvl: 'B2', def: 'to have enough money to pay for something', cn: '买得起；负担得起', col: 'can / could afford sth', q: 'food that everyone could afford' },
-    { w: 'souvenir', pos: 'n.', lvl: 'B2', def: 'something you buy or keep to remember a place or event', cn: '纪念品', col: 'a souvenir shop / as a souvenir', q: 'have my own souvenir noodles produced' },
-    { w: 'flavour', pos: 'n.', lvl: 'B2', def: 'the taste of a particular food or drink', cn: '口味；味道', col: 'choose a flavour / a range of flavours', q: 'You even choose the flavours' },
-    { w: 'interactive', pos: 'adj.', lvl: 'B2', def: 'allowing people to communicate with it or control it', cn: '互动的；交互式的', col: 'interactive displays / interactive devices', q: 'over 300 interactive devices' },
-    { w: 'participate in', pos: 'phrase', lvl: 'C1', def: 'to take part in an activity or event', cn: '参与；参加', col: 'participate in a project / actively participate', q: 'regularly participates in scientific projects' },
-    { w: 'graphite', pos: 'n.', lvl: 'C1', def: 'a soft black substance used in pencils and as a lubricant', cn: '石墨', col: 'a graphite mine / a discovery of graphite', q: 'the discovery in the surrounding countryside of graphite' },
-    { w: 'specialist', pos: 'adj.', lvl: 'B2', def: 'relating to a particular area of knowledge or skill', cn: '专业的；专门的', col: 'specialist teaching / specialist knowledge', q: 'specialist teaching' }
+    { w: 'evidence', ipa: '/ˈevɪdəns/', pos: 'n.', lvl: 'B2', def: 'facts or objects that show something is or was true', cn: '证据；遗迹', col: 'real evidence of / evidence that …', q: 'real evidence of dinosaurs' },
+    { w: 'footprint', ipa: '/ˈfʊtprɪnt/', pos: 'n.', lvl: 'B2', def: 'a mark left on a surface by a foot', cn: '脚印', col: 'leave footprints / dinosaur footprints', q: 'over 300 dinosaur footprints' },
+    { w: 'steep', ipa: '/stiːp/', pos: 'adj.', lvl: 'B2', def: 'rising or falling sharply', cn: '陡峭的', col: 'a steep climb / a steep hill', q: 'the route includes a steep climb' },
+    { w: 'alternative', ipa: '/ɔːlˈtɜːnətɪv/', pos: 'n.', lvl: 'B2', def: 'something you can choose instead of another thing', cn: '替代方案；选择', col: 'a good alternative / an alternative to sth', q: 'might be a good alternative for some' },
+    { w: 'rely on', ipa: '/rɪˈlaɪ ɒn/', pos: 'phrase', lvl: 'B2', def: 'to need someone or something in order to work or survive', cn: '依靠；依赖', col: 'rely on sb for sth / rely heavily on', q: 'the museum relies on lots of volunteers' },
+    { w: 'assist', ipa: '/əˈsɪst/', pos: 'v.', lvl: 'C1', def: 'to help someone do something', cn: '协助；帮忙', col: 'assist with sth / assist sb in doing', q: 'who assist with everything' },
+    { w: 'abstract', ipa: '/ˈæbstrækt/', pos: 'adj.', lvl: 'C1', def: 'not representing things as they look in real life', cn: '抽象的', col: 'abstract art / abstract sculptures', q: 'over 500 abstract sculptures' },
+    { w: 'conservation', ipa: '/ˌkɒnsəˈveɪʃn/', pos: 'n.', lvl: 'C1', def: 'the protection of the natural environment', cn: '保护；保育', col: 'conservation of the environment / wildlife conservation', q: 'the conservation of the underwater environment' },
+    { w: 'afford', ipa: '/əˈfɔːd/', pos: 'v.', lvl: 'B2', def: 'to have enough money to pay for something', cn: '买得起；负担得起', col: 'can / could afford sth', q: 'food that everyone could afford' },
+    { w: 'souvenir', ipa: '/ˌsuːvəˈnɪə/', pos: 'n.', lvl: 'B2', def: 'something you buy or keep to remember a place or event', cn: '纪念品', col: 'a souvenir shop / as a souvenir', q: 'have my own souvenir noodles produced' },
+    { w: 'flavour', ipa: '/ˈfleɪvə/', pos: 'n.', lvl: 'B2', def: 'the taste of a particular food or drink', cn: '口味；味道', col: 'choose a flavour / a range of flavours', q: 'You even choose the flavours' },
+    { w: 'interactive', ipa: '/ˌɪntərˈæktɪv/', pos: 'adj.', lvl: 'B2', def: 'allowing people to communicate with it or control it', cn: '互动的；交互式的', col: 'interactive displays / interactive devices', q: 'over 300 interactive devices' },
+    { w: 'participate in', ipa: '/pɑːˈtɪsɪpeɪt ɪn/', pos: 'phrase', lvl: 'C1', def: 'to take part in an activity or event', cn: '参与；参加', col: 'participate in a project / actively participate', q: 'regularly participates in scientific projects' },
+    { w: 'graphite', ipa: '/ˈɡræfaɪt/', pos: 'n.', lvl: 'C1', def: 'a soft black substance used in pencils and as a lubricant', cn: '石墨', col: 'a graphite mine / a discovery of graphite', q: 'the discovery in the surrounding countryside of graphite' },
+    { w: 'specialist', ipa: '/ˈspeʃəlɪst/', pos: 'adj.', lvl: 'B2', def: 'relating to a particular area of knowledge or skill', cn: '专业的；专门的', col: 'specialist teaching / specialist knowledge', q: 'specialist teaching' }
   ],
   syntax: [
     {
